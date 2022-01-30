@@ -51,7 +51,7 @@ p{
     font-size: 20px;
 }
 
-@media  (max-width: 575px) {
+@media  (max-width: 475px) {
 
     .container{ 
         width: 26vh;
