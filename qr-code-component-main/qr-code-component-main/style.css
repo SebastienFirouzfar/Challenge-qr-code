@@ -1,33 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap');
 body{
     background-color: hsl(220, 15%, 55%);
 }
 
 .container{
-    width: 33%;
-    top: 10%;
-    border-radius: 10%;
+    width: 25%;
+    border-radius: 4%;
     position: relative;
-    margin-left: 30%;
-    margin-top:5%;
+    margin-left: 35%;
+    margin-top:1%;
     box-shadow: 0px 0px 10px rgba(240, 240, 240, 0.6);
     background-color: hsl(0, 0%, 100%);
 }
 
 img{
     position: relative;
-    margin-left: 20%;
-    margin-top: 10%;
+    margin-left: 10px;
+    margin-top: 3%;
     width: 40%;
     border-radius:10%;
-    width:60%; 
+    width:94%; 
 }
 
 h3{
-    text-align: center
+    margin: 10px;
+    padding:10px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
 }
 
 p{
     font-size: 15px; 
+    padding:15px;
     text-align: center;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    bottom: 20px;
+    color: grey;
 }
 
+@media all and (max-width: 375px){
+    .container{
+        width: 35%;
+        border-radius: 4%;
+        position: relative;
+        margin-left: 35%;
+        margin-top:1%;
+        box-shadow: 0px 0px 10px rgba(240, 240, 240, 0.6);
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    img{
+        position: relative;
+        margin-left: 10px;
+        margin-top: 3%;
+        width: 40%;
+        border-radius:10%;
+        width:94%; 
+    }
+}
+
+@media all and (max-width: 778px){
+    .container{
+        width: 35%;
+        border-radius: 4%;
+        position: relative;
+        margin-left: 35%;
+        margin-top:1%;
+        box-shadow: 0px 0px 10px rgba(240, 240, 240, 0.6);
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    img{
+        position: relative;
+        margin-left: 10px;
+        margin-top: 3%;
+        width: 40%;
+        border-radius:10%;
+        width:94%; 
+    }
+}
