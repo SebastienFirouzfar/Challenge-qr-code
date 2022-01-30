@@ -1,4 +1,5 @@
 # Frontend Mentor - QR code component
+https://sebastienfirouzfar.github.io/Challenge-qr-code/
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
